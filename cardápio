@@ -1,0 +1,6 @@
+CREATE TABLE cardapio (
+    id_cardapio SERIAL PRIMARY KEY,
+    dia_referencia VARCHAR(13),
+    nome_cardapio VARCHAR(20) NOT NULL,
+    avaliacao NUMERIC(3,1)
+);

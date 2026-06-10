@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS restricao (
+    id_restricao INT AUTO_INCREMENT,
+    nivel_restricao VARCHAR(50) NOT NULL,
+    nome_restricao VARCHAR(100) NOT NULL,
+    quantidade_afetados INT DEFAULT 0,
+    -- Definindo a Chave Primária (PK) indicada na imagem
+    PRIMARY KEY (id_restricao)
+);

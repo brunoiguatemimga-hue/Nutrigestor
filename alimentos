@@ -1,0 +1,8 @@
+CREATE TABLE alimento (
+    id_alimento SERIAL PRIMARY KEY,
+    nome_alimento VARCHAR(20) NOT NULL,
+    data_validade DATE NOT NULL,
+    quantidade_estoque NUMERIC(6,2) NOT NULL,
+    unidade_medida VARCHAR(5) NOT NULL,
+    valor_nutricional INTEGER
+);
